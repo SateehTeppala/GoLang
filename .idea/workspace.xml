@@ -19,15 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="379196b4-c4fa-446c-b6dd-cd9dacb5787c" name="Default Changelist" comment="intial commit">
-      <change afterPath="$PROJECT_DIR$/arrays.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/defer.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scan.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/struct.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/switch.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="379196b4-c4fa-446c-b6dd-cd9dacb5787c" name="Default Changelist" comment="new 2">
       <change beforePath="$PROJECT_DIR$/functions.go" beforeDir="false" afterPath="$PROJECT_DIR$/functions.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,6 +36,11 @@
   </component>
   <component name="GOROOT" path="C:\Go" />
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1je3Wno0o7n2N3rEZbhMqoAbv2e" />
@@ -69,7 +66,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
-  <component name="RunManager" selected="Go Build.go build test.go">
+  <component name="RunManager" selected="Go Build.go build functions.go">
     <configuration name="go build arrays.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="GoLang" />
       <working_directory value="$PROJECT_DIR$" />
@@ -86,19 +83,19 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
+    <configuration name="go build functions.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="GoLang" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/functions.go" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build struct.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="GoLang" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/struct.go" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build switch.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="GoLang" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/switch.go" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
@@ -112,11 +109,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build functions.go" />
         <item itemvalue="Go Build.go build test.go" />
         <item itemvalue="Go Build.go build arrays.go" />
         <item itemvalue="Go Build.go build struct.go" />
         <item itemvalue="Go Build.go build defer.go" />
-        <item itemvalue="Go Build.go build switch.go" />
       </list>
     </recent_temporary>
   </component>
@@ -138,7 +135,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="intial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="intial commit" />
+    <MESSAGE value="new 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="new 2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="561" y="71" width="733" height="682" key="#GOPATH" timestamp="1604150882289">
@@ -153,22 +151,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="603" y="117" key="Github.UntrackedFilesDialog/0.0.1536.824@0.0.1536.824" timestamp="1604168450047" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1604423775030">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1604465566228">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604423775030" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1604423775029">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604465566228" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1604465566228">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1604423775029" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1604423775029">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1604465566228" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1604465566228">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1604423775029" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1604423775030">
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1604465566228" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1604465566228">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1604423775030" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1604465566228" />
     <state width="1493" height="242" key="GridCell.Tab.1.bottom" timestamp="1604172372364">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -185,10 +183,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="242" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1604172372364" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1604168644781">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1604465155021">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1604168644781" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1604465155021" />
     <state x="586" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604168530851">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
