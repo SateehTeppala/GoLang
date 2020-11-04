@@ -2,8 +2,8 @@ package main
 
 import "fmt"
 
-func add(a, b int) int {
-	return (a + b)
+func add(a, b int) float32 {
+	return float32(a + b)
 }
 
 /*main function*/
